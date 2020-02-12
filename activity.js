@@ -22,7 +22,7 @@ fetch(`http://localhost:3000/activities/${id}`)
 
     let h5 = document.createElement('h5')
     h5.innerText = activity.image 
-    document.body.appendChild(h5)
+    document.querySelector(".images").appendChild(h5)
 })
 
 fetch(`http://localhost:3000/activities/${id}`)
@@ -52,7 +52,12 @@ fetch(`http://localhost:3000/activities/${id}`)
 })
 
 
-// li.dataset.id = user.id and li.dataset.name 
+fetch(`http://localhost:3000/activities/${id}`)
+.then(response => response.json())
+.then(activity => {
+    let img = document.createElement('img')
+    img.setAttribute("class", "images")
+    img.src = activity.image
+    document.body.appendChild(img)
 
-
-{/* <input type="text" placeholder = "Name" name="name" value="${li.dataset.name}"/> */}
+})
