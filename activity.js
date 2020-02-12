@@ -29,14 +29,28 @@ fetch(`http://localhost:3000/activities/${id}`)
 .then(response => response.json())
 .then(activity => {
     let form = document.createElement('form')
-    form.action = `http://localhost:3000/activites/${id}`
+    form.action = `http://localhost:3000/activities/${id}`
     form.method = 'POST'
     form.innerHTML = `
         <input type='submit' value ="Delete" /> 
         <input type="hidden" name="_method" value="delete" />
         `
-    // document.getElementById('delete_activity').appendChild()
-}) 
+    document.body.appendChild(form)
+})
+
+fetch(`http://localhost:3000/activities/${id}`)
+.then(response => response.json())
+.then(activity => {
+    let form = document.createElement('form')
+    form.action = `http://localhost:3000/activities/${id}`
+    form.method = 'POST'
+    form.innerHTML = `
+        <input type='submit' value ="Update" /> 
+        <input type="hidden" name="_method" value="update" />
+        `
+    document.body.appendChild(form)
+})
+
 
 // li.dataset.id = user.id and li.dataset.name 
 
