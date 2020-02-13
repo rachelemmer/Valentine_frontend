@@ -1,5 +1,25 @@
+.button {
+    font-size: 20px;
+    font-family: 'Galada', cursive;
+}
+
+
 h2:before {
     content: "Location: ";
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3:before {
+    content: "Budget: ";
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4:before {
+    content: "What you need to bring or buy: ";
     font-weight: bold;
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
@@ -11,5 +31,15 @@ h2:before {
 }
 
 #update-location {
+   font-size: larger;
+   font-style: italic;
+}
 
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
 }
