@@ -1,0 +1,27 @@
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+li {
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20rem;
+    height: 30rem;
+    border-color: violet;
+    border-radius: 17px;
+    background-color: antiquewhite;
+}
+
+li > img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: violet;
+}

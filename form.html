@@ -10,7 +10,7 @@
 
 </head>
 <body>
-    
+    <div id="form-div">
     <form method="POST" action="http://localhost:3000/activities"> 
         <h2>Create a Vday Activity!</h2>
         <input type="text" name="title" value="" placeholder="Title"> 
@@ -20,19 +20,20 @@
         <input type="text" name="image" value="" placeholder="Image">
         <br>
         <input type="text" name="what_to_bring_or_buy" value="" placeholder="What to bring or buy">
-        <br> 
+        <br></br>
+        <label>Budget:</label> 
         <select name="budget"> 
             <option value="$">$</option>
             <option value="$$">$$</option>
         </select>
         <br> 
-        Personality: <br>
+        <label>Personality: </label>
         <select name="personality">
             <option value="Adventurous">Adventurous</option>
             <option value="Homebody">Homebody</option>
         </select> 
         <br>
-        Category: <br>
+        <label>Category: </label>
         <select name="category_id" id="category_id">
             
         </select> 
@@ -41,6 +42,7 @@
 
 
     </form>
+</div>
     <script src="form.js"></script>
 </body>
 </html>
