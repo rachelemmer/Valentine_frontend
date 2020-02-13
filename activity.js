@@ -19,8 +19,8 @@ fetch(`http://localhost:3000/activities/${id}`)
     form.method = 'POST'
     form.innerHTML = `
         <input type='submit' value ="Update Location: " /> 
-        <input type='text' name="Location" value="" placeholder="Location"/>
-        <input type="hidden" name="_method" value="update" />
+        <input type='text' name="location" value=""/>
+        <input type="hidden" name="_method" value="put" />
         `
     document.body.appendChild(form)
 
@@ -68,7 +68,7 @@ fetch(`http://localhost:3000/activities/${id}`)
     form.action = `http://localhost:3000/activities/${id}`
     form.method = 'POST'
     form.innerHTML = `
-        <input type='submit' value ="Delete" /> 
+        <input type='submit' value ="Delete Activity" /> 
         <input type="hidden" name="_method" value="delete" />
         `
     document.body.appendChild(form)
