@@ -3,7 +3,7 @@ body {
 background-image: url(https://images.unsplash.com/photo-1484979045040-0ab3854b6acb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1331&q=80); 
 background-repeat: no-repeat;
 background-image: cover;
-background-position: inherit;
+background-size: 1900px 900px
 }
 
 form {
