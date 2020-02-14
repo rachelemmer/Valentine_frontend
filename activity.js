@@ -47,25 +47,7 @@ fetch(`http://localhost:3000/activities/${id}`)
     h4.innerText = activity.what_to_bring_or_buy  
     document.querySelector("div").appendChild(h4)
 
-
 })
-
-
-
-// fetch(`http://localhost:3000/activities/${id}`)
-// .then(response => response.json())
-// .then(activity => {
-//     let form = document.createElement('form')
-//     form.action = `http://localhost:3000/activities/${id}`
-//     form.method = 'POST'
-//     form.innerHTML = `
-//         <input type='submit' value ="Update Location: " /> 
-//         <input type='text' name="Location" value="" placeholder="Location"/>
-//         <input type="hidden" name="_method" value="update" />
-//         `
-//     document.body.appendChild(form)
-// })
-
 
 fetch(`http://localhost:3000/activities/${id}`)
 .then(response => response.json())
@@ -76,15 +58,3 @@ fetch(`http://localhost:3000/activities/${id}`)
     document.querySelector("div").appendChild(img)
 })
 
-// fetch(`http://localhost:3000/activities/${id}`)
-// .then(response => response.json())
-// .then(activity => {
-//     let form = document.createElement('form')
-//     form.action = `http://localhost:3000/activities/${id}`
-//     form.method = 'POST'
-//     form.innerHTML = `
-//         <input type='submit' value ="Delete Activity" /> 
-//         <input type="hidden" name="_method" value="delete" />
-//         `
-//     document.body.appendChild(form)
-// })
