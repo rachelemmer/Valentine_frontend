@@ -9,9 +9,6 @@ button, input[type="submit"], input[type="reset"], input[type="text"], select, t
     border-radius: 7.5px;
 }
 
-
-
-
 nav { 
     display: flex;
     justify-content: space-evenly;
@@ -19,18 +16,17 @@ nav {
     padding-left: 5rem;
   }
 
-  #title {
+#title {
       font-size: 50px;
       font-family: 'Galada', cursive;
       text-align: center;
       font-family: 'Galada', cursive;
-  }
+}
 
 
 body {
    background-color: palevioletred;
    background: linear-gradient(to bottom,#ff99cc 0%, #ffffff 100%);
-    
     background-repeat: no-repeat;
     background-size: 2000px 1200px;
 }
@@ -111,6 +107,8 @@ h4:before {
 .images {
     height: 200px;
     width: 300px;
+    border-radius: 50%;
+    
 }
 
 #update-button {

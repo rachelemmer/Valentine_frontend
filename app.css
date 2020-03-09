@@ -2,24 +2,24 @@
     text-decoration: none;
 }
 
+#title {
+  font-family: 'Galada', cursive;
+  text-align: center;
+  font-size: 60px;
+  color: #101010;
+  font-weight: lighter;
+}
+
+#subtitle {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: #101010;
+}
 
 body {
     background-color: #FFB6C1;
 }
 
-#title {
-    font-family: 'Galada', cursive;
-    text-align: center;
-    font-size: 60px;
-    color: #101010;
-    font-weight: lighter;
-}
-
-#subtitle {
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    color: #101010;
-}
 
 .categories {
     display: flex;
@@ -48,9 +48,9 @@ body {
 footer {
   font-size: 15px;
   font-family: 'Galada', cursive;
-font-family: 'Patua One', cursive;
-font-family: 'Sriracha', cursive;
-font-family: 'Courgette', cursive;
-font-family: 'Lemonada', cursive;
-font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Patua One', cursive;
+  font-family: 'Sriracha', cursive;
+  font-family: 'Courgette', cursive;
+  font-family: 'Lemonada', cursive;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
