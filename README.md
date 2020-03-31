@@ -36,5 +36,7 @@ Fork & Clone down repository, run Bundle Install, run rails DB:create, run rails
 ## About Application: 
 This application was made by Rachel Emmer and Lillian Bitner as part of the Module 2 project in the Flatiron School Software Engineering Bootcamp program. It incorporates full CRUD functionality as well as a 1:M relationship between models in the Rails API. 
 
+Link to backend repository: https://github.com/rachelemmer/Valentine-Project
+
 
 
